@@ -20,11 +20,11 @@ CampaignsController.get("/:team_id", async (req: Request, res: Response) => {
       status: 200,
       data: result,
     });
-  } catch (error) {
+  } catch (err) {
+    console.log(err);
     res.status(400).json({
       status: 400,
-      message: `Could not retrieve campaigns with teamId: ${teamId}`,
-      error,
+      message: `Could not retrieve campaigns with team_id: ${teamId}`,
     });
   }
 });
