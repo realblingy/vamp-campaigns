@@ -17,7 +17,7 @@ I used the MSC approach because it provides a better "separation of concerns". A
 
 ## Notes
 
-I personally would not have the .env file in the repository. A better practice would be to have it stored within the CI/CD pipeline.
+I personally would not have the .env file in the repository with production keys. A better practice would be to have it stored within the CI/CD pipeline.
 
 However, I wanted this code to be easily run by the team, so I left it there for a quicker start :D
 
