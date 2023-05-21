@@ -1,5 +1,5 @@
 import { doc, setDoc } from "firebase/firestore";
-import { db } from "../services/campaigns/database";
+import { db } from "../services/database";
 import { campaigns } from "./campaignData/campaigns";
 import { teams } from "./campaignData/teams";
 
