@@ -1,4 +1,4 @@
-import express, { Express, Request, Response, Router } from "express";
+import express, { Request, Response } from "express";
 import dotenv from "dotenv";
 import CampaignsController from "./controllers/campaigns";
 import TeamsController from "./controllers/teams";
