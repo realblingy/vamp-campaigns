@@ -19,5 +19,5 @@ I used the MSC approach because it provides a better "separation of concerns". A
 
 I personally would not have the .env file in the repository. A better practice would be to have it stored within the CI/CD pipeline.
 
-However, this project doesn't have a CI/CD pipeline, and so I left it there so that it's easier to run by Vamp. :D
+However, I wanted this code to be easily run by the team, so I left it there for a quicker start :D
 
