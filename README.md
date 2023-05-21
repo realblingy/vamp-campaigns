@@ -26,5 +26,5 @@ I used the MSC approach because it provides a better "separation of concerns". A
 
 I personally would not have the .env file in the repository with production keys. A better practice would be to have it stored within the CI/CD pipeline. However, I wanted this code to be easily run by the team, so I left it there for a quicker start.
 
-The database is initalised by converting the Excel sheets into JSON. The database is then populated by the JSON objects from the *initaliseDatabase.ts* file in the *utils/* folder. I also wouldn't push the files in the utils folder the repository, as it has database write queries. In the case of accidental write queries, I have disabled the setting in Firebase as a preventative measure.
+The database is initalised by converting the Excel sheets into JSON. The database is then populated by the JSON objects from the *initaliseDatabase.ts* file in the *utils/* folder. I also wouldn't push the files in the utils folder the repository, as it has database write queries. In the case of unauthorised/accidental write queries, I have disabled the setting in Firebase as a preventative measure.
 
