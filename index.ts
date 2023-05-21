@@ -2,7 +2,6 @@ import express, { Request, Response } from "express";
 import dotenv from "dotenv";
 import CampaignsController from "./controllers/campaigns";
 import TeamsController from "./controllers/teams";
-// import { getTeams, getCampaigns } from './models';
 
 dotenv.config();
 
