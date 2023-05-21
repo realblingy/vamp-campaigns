@@ -12,7 +12,7 @@ The API is built using TypeScript, ExpressJS and Firebase.
 
 It also uses a MSC (Model-Service-Controller) approach which is similar to the MVC (Model-View-Controller) framework. However, the API sends back JSON and not a HTML file, so it does not send back any views.
 
-I used the MSC approach because it provides a better "separation of concerns". As a result, the code becomes more scalable and easier to main over time.
+I used the MSC approach because it provides a better "separation of concerns". As a result, the code becomes more scalable and easier to maintain over time.
 
 
 ## Notes
